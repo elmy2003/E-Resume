@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="student.html">
+            <div class="logo">
+            <img src="c:\Users\elnis\OneDrive\Desktop\Web Resume\PICTURE\el_logo.png" class="logo">
+            </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\index.html">Home</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\aboutme.html">About Me</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\eresume.html">Resume</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\contactme.html">Contact Me</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\Video.html">My Video</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="left-column">
+            <section>
+                <h2>Mission</h2>
+                <p>To utilize my knowledge in information systems and data management to enhance organizational efficiency and support strategic decision-making through 
+                    accurate and ethical data practices.</p><br>
+                <h2>Vision</h2>
+                <p>To become a leading information management who drives innovation and best practices in data governance,
+                    ensuring that organizations can harness the full potential of their data.</p>
+            </section>
+        </div>
+        
+        <div class="right-column">
+            <div class="center">
+                <img src="C:\Users\elnis\OneDrive\Desktop\Web Resume\PICTURE\Motivation pic.jpg";
+                class="center">
+            </div>
+                <section><h2>Motivation Quote</h2><br>
+                </section>
+        </div>
+
+    </main>
+
+   
+</body>
+    <div class="footer">
+        <p>&copy; Copyright by Elnisyah Binti Oreng. Last updated: <span id="update-date"></span></p>
+    </div>    
+
+    <script>
+        document.getElementById("update-date").innerText = new Date().toLocaleDateString();
+    </script>
+</html>

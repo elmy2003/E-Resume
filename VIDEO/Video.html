@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="student.html">
+            <img src="c:\Users\elnis\OneDrive\Desktop\Web Resume\PICTURE\el_logo.png" class="logo">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\index.html">Home</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\aboutme.html">About Me</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\eresume.html">Resume</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\contactme.html">Contact Me</a></li>
+            <li><a href="C:\Users\elnis\OneDrive\Desktop\Web Resume\VIDEO\Video.html">My Video</a></li>
+        </ul>
+        </ul>
+    </nav>
+
+    <head><br>
+        <h2 style="text-align: center"><br>My video</h2>
+        </head>
+
+    <main>
+        <div class="video-container">
+            <video width="480" height="400" controls>
+                <source src="C:\Users\elnis\Downloads\Video_Resume.mp4" type="video/mp4">
+                <source src="C:\Users\elnis\Downloads\Video_Resume.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p>&copy; Copyright by Elnisyah Binti Oreng. Last updated: <span id="update-date"></span></p>
+    </div>    
+
+    <script>
+        document.getElementById("update-date").innerText = new Date().toLocaleDateString();
+    </script>
+
+    </body>
+</html>
